@@ -17,7 +17,7 @@
   </div>
   <!-- Desktop Footer -->
   <div
-    class="tw-hidden lg:tw-flex tw-justify-around tw-py-12 tw-bg-secondary-800"
+    class="tw-hidden lg:tw-flex tw-justify-around tw-py-12 tw-bg-secondary-800 custom-container"
   >
     <div v-for="item in footerItems">
       <p

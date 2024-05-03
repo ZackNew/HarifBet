@@ -1,17 +1,17 @@
 <template>
-  <div class="q-pa-md dark:tw-bg-secondary-900">
-    <q-layout view="lHh lpr lFf" style="height: 400px">
+  <div class="dark:tw-bg-secondary-900">
+    <q-layout view="lHh lpr lff">
       <q-header elevated class="tw-bg-secondary-800">
         <Header />
       </q-header>
 
-      <q-footer elevated>
-        <Footer />
-      </q-footer>
-
       <q-page-container>
         <slot />
       </q-page-container>
+
+      <q-footer elevated>
+        <Footer />
+      </q-footer>
     </q-layout>
   </div>
 </template>
